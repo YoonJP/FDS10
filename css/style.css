@@ -29,7 +29,7 @@ h2{
 }
 .main{
   background-color: skyblue;
-  padding: 0 15px;
+  padding: 30px 15px;
 }
 .clearfix::after{
   content: "";
