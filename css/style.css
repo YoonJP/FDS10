@@ -1,3 +1,6 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
 body {
   background-color: #fff;
   font-size: 16px;
@@ -26,21 +29,32 @@ h2{
 }
 .main{
   background-color: skyblue;
-  height: 30vh;
-  overflow: hidden;
+  padding: 0 15px;
+}
+.clearfix::after{
+  content: "";
+  background-color: black;
+  color: white;
+  clear: both;
+  display: block;
 }
 .group{
   height: 30vh;
   float: left;
+  margin: 0 15px;
 }
 .group1{
   background-color: rgba(255,255,255,.5);
+  width: 250px;
+  float: left;
 }
 .group2{
-   background-color: hsla(120,70%,60%,0.5);
+  background-color: hsla(120,70%,60%,0.5);
+  width: 380px;
 }
 .group3{
   background-color: tomato;
+  width: 190px;
 }
 .slogan{
   background-color: blueviolet;
