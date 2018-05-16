@@ -40,7 +40,15 @@ h2{
   margin: 0 auto;
 }
 .header{
-  background-color: pink;
+  background-color: #fff;
+  padding: 0 30px;
+  position: relative;
+}
+/* 로고 */
+.logo{
+  position: absolute;
+  top: 45px;
+  left: 65px;
 }
 .visual{
   background-color: lime;
