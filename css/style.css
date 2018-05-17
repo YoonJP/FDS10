@@ -1,5 +1,6 @@
 @import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
 @import url("normalize.css");
+@import url("fontello.css");
 *, *::before, *::after{
   box-sizing: border-box;
 }
@@ -52,7 +53,7 @@ h2{
 }
 .header{
   background-color: #fff;
-  padding: 0 30px 50px;
+  padding: 0 30px 40px;
   position: relative;
   border-radius: 0 0 15px 15px; 
 }
@@ -118,32 +119,49 @@ h2{
   cursor: pointer;
 }
 .sub-menu{
-  background-color: pink;
   position: absolute;
-  top: 47px;
-  left: 0;
-  white-space: nowrap;
+  top: 50px;
+  width: 500px; /* 임시 */
+  /* white-space: nowrap; 확인 필요 */
 }
 .sub-menu li{
   display: inline-block;
 }
+.sub-menu a{
+  display: inline-block;
+  padding: 8px 5px 10px 0;
+  margin-right: 10px;
+}
+.sub-menu a::before{
+  font-family: "fontello";
+  content: "\f192";
+}
+.sub-menu a:hover:before{
+  content: '\e800';
+}
 .menu-item:nth-child(1) .sub-menu{
-  display: block;
+  display: none;
+  left: 0;
 }
 .menu-item:nth-child(2) .sub-menu{
   display: none;
+  left: 0;
 }
 .menu-item:nth-child(3) .sub-menu{
   display: none;
+  left: 0;
 }
 .menu-item:nth-child(4) .sub-menu{
   display: none;
+  right: 0;
 }
 .menu-item:nth-child(5) .sub-menu{
   display: none;
+  right: 0;
 }
 .menu-item:nth-child(6) .sub-menu{
   display: none;
+  right: 0;
 }
 /* 비주얼 */
 .visual{
