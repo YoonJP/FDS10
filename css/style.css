@@ -167,8 +167,6 @@ h2{
 }
 .clearfix::after{
   content: "";
-  background-color: black;
-  color: white;
   clear: both;
   display: block;
 }
