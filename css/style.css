@@ -17,9 +17,12 @@ a{
 }
 /* 숨김 콘텐츠 */
 .readable-hidden{
-  background-color: yellow;
   position: absolute;
-  left: -9999em;
+  width: 1px;
+  height: 1px;
+  clip: rect(0,0,0,0);
+  margin: -1px;
+  overflow: hidden;
 }
 body {
   background-color: #fff;
