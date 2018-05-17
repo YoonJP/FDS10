@@ -121,8 +121,7 @@ h2{
 .sub-menu{
   position: absolute;
   top: 50px;
-  width: 500px; /* 임시 */
-  /* white-space: nowrap; 확인 필요 */
+  white-space: nowrap;
 }
 .sub-menu li{
   display: inline-block;
