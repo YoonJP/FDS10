@@ -103,10 +103,7 @@ h2{
   color: #fff;
   font-weight: 700;
   font-size: 1.6rem;
-  text-shadow: 1px 0 0 #000,    
-               0 1px 0 #000, 
-               -1px 0 0 #000, 
-               0 -1px 0 #000;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
 }
 .menu-item-text:hover::after{
   content: "";
@@ -119,6 +116,7 @@ h2{
   cursor: pointer;
 }
 .sub-menu{
+  display: none;
   position: absolute;
   top: 50px;
   white-space: nowrap;
@@ -139,27 +137,21 @@ h2{
   content: '\e800';
 }
 .menu-item:nth-child(1) .sub-menu{
-  display: none;
   left: 0;
 }
 .menu-item:nth-child(2) .sub-menu{
-  display: none;
   left: 0;
 }
 .menu-item:nth-child(3) .sub-menu{
-  display: none;
   left: 0;
 }
 .menu-item:nth-child(4) .sub-menu{
-  display: none;
   right: 0;
 }
 .menu-item:nth-child(5) .sub-menu{
-  display: none;
   right: 0;
 }
 .menu-item:nth-child(6) .sub-menu{
-  display: none;
   right: 0;
 }
 /* 비주얼 */
