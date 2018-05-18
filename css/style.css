@@ -35,11 +35,6 @@ body {
   color: #181818;
   font-family: 'Spoqa Han Sans';
 }
-h2{
-  margin: 0;
-  font-size: 1em;
-  font-weight: normal
-}
 /* 레이아웃 */
 .wrapper{
   background-color: silver;
