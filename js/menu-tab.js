@@ -1,7 +1,7 @@
 var tab = $('.tab');
 var list = $('.notice, .pds')
 var list_item = $('.board li');
-
+// 탭 요소에 키보드 포커스를 받을 수 있도록 tabindex 속성 추가
 tab.attr('tabindex', '0');
 // 공지사항 및 자료실 목록에 아이콘 클래스 추가
 list_item.attr('class', 'icon-dot-circled');
