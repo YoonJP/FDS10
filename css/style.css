@@ -466,12 +466,20 @@ body {
   left: 0;
   top: 30px;
   height: 1px;
-  width: 80%;
   background: linear-gradient(to right, #aaa, #fff);
+  /* border-image를 활용하여 Gradient 효과를 지정할 때 */
+  /* border-top: 2px solid green;  
+  border-image-source: linear-gradient(to right, #000, #fff);
+  border-image-slice: 2;
+  width: 80%; */
 }
 .news-heading{
   font-size: 1.5rem;
   color: #ce5327;
+}
+.news-link{
+  display: block;
+  outline-offset: 5px;
 }
 .news-item{
   margin-top: 35px;
